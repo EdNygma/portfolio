@@ -11,6 +11,12 @@
   </head>
 
   <body>
+  <%= image_tag "welcome_img.jpg" %>
     <%= yield %>
+    <%
+=begin%>
+ <%= link_to "About", about_path  %> 
+<%
+=end%>
   </body>
 </html>
