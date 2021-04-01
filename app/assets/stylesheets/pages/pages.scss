@@ -1,10 +1,4 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-/*
-* = 'require_self'
-*/
-body{
-    background-image:image-path("welcome_img.jpg") ;
-}
-
+@import "home";

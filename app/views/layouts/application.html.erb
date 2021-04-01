@@ -3,6 +3,7 @@
   <head>
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,12 +12,6 @@
   </head>
 
   <body>
-  <%= image_tag "welcome_img.jpg" %>
     <%= yield %>
-    <%
-=begin%>
- <%= link_to "About", about_path  %> 
-<%
-=end%>
   </body>
 </html>
