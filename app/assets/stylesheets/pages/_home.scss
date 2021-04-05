@@ -9,13 +9,14 @@ body, html {
   }
   
   .intro-header {
-   // padding-top: 50px;
-    padding-bottom: 20px;
+   padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     color: #bb0c0c;
     background: url("background_img.jpg") no-repeat center center ;
     opacity: 1;
     background-size: cover;
+    background-position: center;
   }
   
   .intro-message {
